@@ -6,8 +6,7 @@ function playerconstructor() {
   var lstname = document.getElementById('playerlst').value;
   var health = 50;
   var items = [];
-  var game = window.open(" ", "WORLD", "width=100,hieght=100");
-  game.document.write("<div></div>")
+  var place = 'Door';
   
 };
 document.getElementbyId('register').onclick = playerconstructor;
